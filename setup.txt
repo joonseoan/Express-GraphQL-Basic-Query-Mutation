@@ -1,0 +1,20 @@
+1. In Users Folder, npm init.
+2.npm install --save express express-graphql graphql lodash
+
+// make a database
+3. npm install --save json-server
+
+   make a file : db.json
+
+   "
+   	{
+		"users": [
+			{"id": "23", "firstName": "Bill", "age": 21},
+			{"id": "40", "firstName": "Alex", "age": 40},
+			{"id": "35", "firstName": "Samantha", "age": 34}
+		]
+	}
+
+   "
+
+  => run : npm run json:server
