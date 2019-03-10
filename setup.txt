@@ -1,5 +1,5 @@
 1. In Users Folder, npm init.
-2.npm install --save express express-graphql graphql lodash
+2. npm install --save express express-graphql graphql lodash
 
 // make a database
 3. npm install --save json-server
